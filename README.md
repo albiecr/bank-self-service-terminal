@@ -2,7 +2,7 @@
 
 
 <div align = "center">
-<a href="https://github.com/albiecr"><img src="https://readme-typing-svg.herokuapp.com?font=Sour+Gummy&size=40&pause=100&color=EF82F7&width=850&height=90&lines=Bank+Self+Service+Terminal" alt="Typing SVG" /></a></div>
+<a href="https://github.com/albiecr"><img src="https://readme-typing-svg.herokuapp.com?font=Sour+Gummy&size=68&pause=100&color=EF82F7&width=850&height=90&lines=Bank+Self+Service+Terminal" alt="Typing SVG" /></a></div> <br>
 <img align = "right" height = "300" src = "https://github.com/user-attachments/assets/4112619c-500b-464c-9286-a0fa09e5c5a2"/>
 <h2>📜 Description </h2>
 A Java-based command-line application that simulates an automated banking terminal with core financial operations. Developed as a practical exercise in object-oriented programming and banking business logic.
