@@ -39,18 +39,18 @@ cd bank-self-service-terminal</code></pre>
 3. Display operation and balance <br>
 
 <h2>🏗️ Code Structure</h2>
- <pre><code class="language-java"> myactivities/
-└── banksystem.java         // Main class
-    ├── main()              // Entry point
-    │   ├── Scanner         // User input handler
-    │   ├── saldo           // Balance tracker
-    │   ├── movim[]         // Transaction history array (stores last 10 operations)
-    │   └── do-while loop   // Main menu system
+ <pre><code class="language-java"> Bank/
+└── BankSelfServiceTerminal.java         // Main class
+    ├── main()                           // Entry point
+    │   ├── Scanner                      // User input handler
+    │   ├── saldo                        // Balance tracker
+    │   ├── movim[]                      // Transaction history array (stores last 10 operations)
+    │   └── do-while loop                // Main menu system
     │
-    ├── Deposit Logic       // valordep processing (+validation)
-    ├── Withdrawal Logic    // valorsaq processing (+balance check)
-    ├── Balance Check       // Displays current saldo
-    └── Statement           // Prints movim[] with timestamps </code></pre>
+    ├── Deposit Logic                    // valordep processing (+validation)
+    ├── Withdrawal Logic                 // valorsaq processing (+balance check)
+    ├── Balance Check                    // Displays current saldo
+    └── Statement                        // Prints movim[] with timestamps </code></pre>
 <h4>Key Components</h4>
 • <b>LocalDateTime:</b> Tracks transaction timestamps <br>
 • <b>Array-based Storage</b> <code>movim[]</code> stores last 10 transactions <br>
